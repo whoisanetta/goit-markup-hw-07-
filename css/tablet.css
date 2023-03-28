@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+
+  .us > .container {
+    max-width: 552px;
+  }
+
+  .us-item {
+    width: calc((100%-60px) / 2);
+  }
+  .customers-item {
+    width: calc((100% - 74px) / 3);
+    height: 88px;
+  }
+
+  .boxes-element {
+    width: calc((100% - 54px) / 2);
+  }
+
+  .boxes-list {
+    justify-content: left;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .box-sec {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-item-btn {
+    margin-bottom: 64px;
+  }
+}
