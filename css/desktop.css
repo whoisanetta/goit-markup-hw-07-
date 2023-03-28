@@ -15,6 +15,15 @@
     height: 88px;
   }
 
+  .portfolio-filter-list {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .portfolio-item-btn {
+    margin-bottom: 72px;
+  }
+
   .boxes-element {
     width: calc((100% - 90px) / 3);
   }

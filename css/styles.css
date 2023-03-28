@@ -691,11 +691,14 @@ body {
 .portfolio-filter-list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 16px;
+  padding-bottom: 48px;
   /*outline: 1px solid green;*/
 }
 .portfolio-item-btn {
-  margin-bottom: 72px;
   cursor: pointer;
 }
 
