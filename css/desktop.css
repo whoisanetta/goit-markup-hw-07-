@@ -7,8 +7,80 @@
     max-width: 1200px;
   }
 
+  .main-page-cnt {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .main-paige-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+
+    margin-bottom: 48px;
+  }
+
+  .icon-pec-list {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-pec-item {
+    width: 264px;
+    height: 112px;
+  }
+
+  .icon-pec-wrap {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4fd;
+  }
+
+  .about {
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  .title-about {
+    margin-top: 0;
+    margin-bottom: 72px;
+  }
+
+  .about-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-item {
+    margin-left: 24px;
+  }
+
+  .about-list .about-item:first-child {
+    margin-left: 0;
+  }
+
+  .peculiarities-item {
+    margin-left: 24px;
+  }
+
+  .icon-pec-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-pec-wrap {
+    display: flex;
+  }
+
+  .us-list {
+    flex-wrap: nowrap;
+  }
   .us-item {
-    width: calc((100%-60px) / 4);
+    gap: 24px;
+    width: calc((100% - 60px) / 4);
   }
   .customers-item {
     width: calc((100% - 150px) / 6);
