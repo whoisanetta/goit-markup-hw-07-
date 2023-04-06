@@ -128,17 +128,33 @@
     column-gap: 24px;
     row-gap: 72px;
   }
+
+  .peculiarities-item {
+    width: 356px;
+  }
   .pec-it {
     text-align: left;
   }
 
+  .pec-iat {
+    width: 350px;
+  }
+
+  .us-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
   .us-item {
-    gap: 24px;
     width: calc((100% - 60px) / 2);
   }
   .customers-item {
     width: calc((100% - 74px) / 3);
+    max-width: 190px;
     height: 88px;
+  }
+
+  .customers-list {
+    column-gap: 24px;
   }
 
   .portfolio-filter-list {
