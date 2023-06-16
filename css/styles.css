@@ -126,7 +126,7 @@ body {
 }
 
 .header-list {
-  display: flex;
+  display: none;
   align-items: center;
   margin-left: 76px;
 }
@@ -740,7 +740,7 @@ body {
 }
 
 .footer-item-submit {
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .footer-item-title {
@@ -795,6 +795,8 @@ body {
 }
 
 .footer-input-text {
+  display: flex;
+  margin: auto;
   justify-content: center;
   font-weight: 500;
   font-size: 16px;
@@ -804,6 +806,18 @@ body {
   color: #ffffff;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-input-text-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-input-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
 .footer-input {
