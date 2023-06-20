@@ -20,6 +20,14 @@
     margin-bottom: 48px;
   }
 
+  .menu-open-btn {
+    display: none;
+  }
+
+  .header-auth-list {
+    gap: 40px;
+  }
+
   .icon-pec-list {
     display: flex;
     justify-content: center;
@@ -77,9 +85,9 @@
 
   .us-list {
     flex-wrap: nowrap;
+    gap: 24px;
   }
   .us-item {
-    gap: 24px;
     width: calc((100% - 60px) / 4);
   }
   .customers-item {
@@ -112,4 +120,12 @@
     padding-left: 156px;
     padding-right: 156px;
   }
+}
+
+.footer-list {
+  gap: 80px;
+}
+
+.footer-item-desc {
+  margin-right: 40px;
 }

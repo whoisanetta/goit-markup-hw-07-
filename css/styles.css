@@ -122,11 +122,11 @@ body {
 
 .header-list,
 .header-auth-list {
-  display: none;
+  display: flex;
 }
 
 .header-list {
-  display: none;
+  display: flex;
   align-items: center;
   margin-left: 76px;
 }

@@ -15,6 +15,10 @@
     margin-bottom: 36px;
   }
 
+  .menu-open-btn {
+    display: none;
+  }
+
   .peculiarities-list {
     column-gap: 24px;
     row-gap: 72px;
@@ -23,8 +27,12 @@
     text-align: left;
   }
 
+  .us-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
   .us-item {
-    gap: 24px;
     width: calc((100% - 60px) / 2);
   }
   .customers-item {
