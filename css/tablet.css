@@ -7,6 +7,10 @@
     max-width: 582px;
   }
 
+  .header-auth-list {
+    display: inline-block;
+  }
+
   .main-paige-title {
     font-weight: 700;
     font-size: 56px;
@@ -63,4 +67,12 @@
     padding-top: 64px;
     padding-bottom: 96px;
   }
+}
+.footer-form {
+  display: inline-block;
+  justify-content: start;
+}
+
+.footer-list {
+  justify-content: start;
 }

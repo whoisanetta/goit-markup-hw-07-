@@ -25,6 +25,7 @@
   }
 
   .header-auth-list {
+    display: flex;
     gap: 40px;
   }
 
@@ -123,9 +124,13 @@
 }
 
 .footer-list {
-  gap: 80px;
+  justify-content: space-around;
 }
 
 .footer-item-desc {
   margin-right: 40px;
+}
+
+.footer-field {
+  display: block;
 }

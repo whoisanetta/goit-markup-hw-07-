@@ -789,7 +789,7 @@ body {
 .footer-field {
   margin-left: auto;
   margin-right: auto;
-  display: inline-block;
+
   justify-content: center;
   align-items: center;
 }
