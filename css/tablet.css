@@ -7,6 +7,12 @@
     max-width: 582px;
   }
 
+  .header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 76px;
+  }
+
   .header-auth-list {
     display: inline-block;
   }

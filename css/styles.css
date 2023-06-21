@@ -125,12 +125,6 @@ body {
   display: flex;
 }
 
-.header-list {
-  display: flex;
-  align-items: center;
-  margin-left: 76px;
-}
-
 .header-list .header-item {
   margin-right: 40px;
 }

@@ -20,6 +20,16 @@
     margin-bottom: 48px;
   }
 
+  .header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 76px;
+  }
+
+  .header-auth-list {
+    display: flex;
+  }
+
   .menu-open-btn {
     display: none;
   }
