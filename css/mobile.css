@@ -11,10 +11,3 @@
 .header-auth-list {
   display: none;
 }
-
-.footer-field {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-}

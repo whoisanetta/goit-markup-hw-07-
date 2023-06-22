@@ -82,3 +82,8 @@
 .footer-list {
   justify-content: start;
 }
+
+.footer-input-text {
+  display: block;
+  margin-bottom: 12px;
+}
