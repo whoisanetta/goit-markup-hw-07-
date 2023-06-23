@@ -733,7 +733,8 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 264px;
-  margin: 0;
+  margin-right: 0px;
+  justify-content: center;
 }
 
 .footer-list {
@@ -756,8 +757,11 @@ body {
 
 .footer-item-submit {
   margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
 .footer-item-title {
   display: flex;
   justify-content: center;
@@ -802,8 +806,6 @@ body {
 }
 
 .footer-field {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -821,12 +823,13 @@ body {
   letter-spacing: 0.02em;
 
   color: #ffffff;
-}
+} /*
 
 .footer-input-text-div {
   align-items: center;
   justify-content: center;
 }
+*/
 
 .footer-input-wrap {
   display: flex;
@@ -862,6 +865,7 @@ body {
 }
 
 /*button question*/
+
 .footer-submit-button {
   display: flex;
   align-items: center;
