@@ -193,18 +193,20 @@
     padding-bottom: 96px;
     padding-left: 108px;
   }
+
   .footer-list {
     justify-content: left;
     row-gap: 72px;
     column-gap: 24px;
   }
 
+  /*
   .footer-field {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
     justify-content: center;
-  }
+  }*/
 
   .footer-input-text {
     justify-content: center;
@@ -214,8 +216,8 @@
     letter-spacing: 0.02em;
 
     color: #ffffff;
-    display: inline-block;
-    margin-bottom: 16px;
+    display: flex;
+    margin-bottom: 12px;
   }
 
   .footer-input {
@@ -241,7 +243,8 @@
     color: rgba(255, 255, 255, 0.6);
   }
 }
-
+/*
 .footer-item-submit {
   margin-left: 0;
 }
+*/
