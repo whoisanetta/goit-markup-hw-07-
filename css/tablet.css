@@ -90,4 +90,11 @@
     .footer-field {
     display: block;
   }
+    .footer-item-title {
+    justify-content: start;
+  }
+
+  .footer-logo {
+    justify-content: start;
+  }
 }
