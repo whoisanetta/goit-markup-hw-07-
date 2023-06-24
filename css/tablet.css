@@ -73,17 +73,28 @@
     padding-top: 64px;
     padding-bottom: 96px;
   }
-}
-.footer-form {
-  display: inline-block;
-  justify-content: start;
-}
 
-.footer-list {
-  justify-content: start;
-}
+  .footer-form {
+    display: inline-block;
+    justify-content: start;
+  }
+  
+  .footer-list {
+    justify-content: start;
+  }
+  
+  .footer-input-text {
+    display: block;
+    margin-bottom: 12px;
+  }
+    .footer-field {
+    display: block;
+  }
+    .footer-item-title {
+    justify-content: start;
+  }
 
-.footer-input-text {
-  display: block;
-  margin-bottom: 12px;
+  .footer-logo {
+    justify-content: start;
+  }
 }
