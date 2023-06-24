@@ -211,4 +211,11 @@
     gap: 72px;
     justify-content: center;
   }
+  .footer-item-title {
+    justify-content: start;
+  }
+
+  .footer-logo {
+    justify-content: start;
+  }
 }
