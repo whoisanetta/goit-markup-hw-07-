@@ -206,15 +206,9 @@
     justify-content: start;
   }
 
-  /*
   .footer-field {
     display: block;
     gap: 72px;
     justify-content: center;
   }
-  /*
-.footer-item-submit {
-  margin-left: 0;
-}
-*/
 }
