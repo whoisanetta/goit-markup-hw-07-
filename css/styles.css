@@ -760,7 +760,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 .footer-item-title {
   display: flex;

@@ -270,15 +270,16 @@
     gap: 72px;
     justify-content: start;
   }
-  /*.footer-item-submit {
+  /* 
+  .footer-item-submit {
     margin-left: auto;
-  }*/
+  } */
   /*
   .footer-field {
     display: inline-block;
     justify-content: center;
   }
-*/
+  */
   .footer-input-text {
     display: inline-block;
     margin-bottom: 16px;
